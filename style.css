@@ -1,0 +1,13 @@
+body{
+    background-color: rgb(236, 140, 236);
+}
+
+h1{
+    background-color: powderblue;
+    border: 2px solid rebeccapurple;
+    padding: 10px;
+}
+
+p{
+    font-family: 'Courier New', Courier, monospace;
+}

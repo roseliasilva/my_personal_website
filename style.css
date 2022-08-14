@@ -32,7 +32,6 @@ main h1{
 }
 
 section{
-    /*border-radius: 2px solid white;*/
     border: 2px solid white;
     border-radius: 20px;
     margin-left: 100px;
@@ -72,25 +71,10 @@ section .icons{
     margin-bottom: 50px;
 }
 
+.icons a{
+    text-decoration: none;
+}
+
 .icons a img{
     margin-left: 10px;
 }
-
-/**{
-    color: white;
-}
-
-body{
-    background-color: rgb(236, 140, 236);
-}
-
-h1{
-    border: 2px solid rebeccapurple;
-    padding: 10px;
-    display: contents;
-    font-size: 20px;
-}
-
-/*p{
-    font-family: 'Courier New', Courier, monospace;
-}*/

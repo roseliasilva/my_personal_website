@@ -16,6 +16,7 @@ body{
 main{
     margin-bottom: 60px;
     margin-top: 30px;
+    height: 60px;
 }
 
 main h1{
@@ -24,7 +25,14 @@ main h1{
     max-width: 125px;
     margin: 5px 120px;
     font-size: 15px;
-  }
+}
+
+main h1:hover{
+    border-width: 2px;
+    border-color: white;
+    border-style: solid;
+    border-radius: 10px;
+}
 
 .centralizado{
     display: flex;
@@ -78,3 +86,4 @@ section .icons{
 .icons a img{
     margin-left: 10px;
 }
+

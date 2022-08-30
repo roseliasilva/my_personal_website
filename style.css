@@ -3,13 +3,12 @@
     padding: 0;
 }
 
-html {
-    height: 100%;
+html{
+    height: max-content;
 }
 
 body{
     color: white;
-    background: rgb(1,1,1);
     background: linear-gradient(0deg, rgba(1,1,1,1) 0%, rgba(49,4,125,1) 51%, rgba(159,119,228,1) 100%);
 }
 
@@ -44,6 +43,12 @@ section{
     border-radius: 20px;
     margin-left: 100px;
     margin-right: 100px;
+    margin-bottom: 200px;
+}
+
+.bio, .portf, .contt{
+    border: none;
+    margin-bottom: 300px;
 }
 
 section h1{
